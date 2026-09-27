@@ -1,0 +1,17 @@
+{
+  "name": "CS454Project1DomWilliams",
+  "version": "1.0.0",
+  "description": "Containerized REST service that converts pounds to kilograms and tracks successful conversions with Redis.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node tests/test.js"
+  },
+  "dependencies": {
+    "express": "5.1.0",
+    "redis": "5.8.2"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
